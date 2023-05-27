@@ -41,18 +41,70 @@ p {
     padding: 36px;
 }
 
-#hero--photo-div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 #hero--photogrid {
     width: 80vw;
     margin-bottom: 36px;
+    align-self: center;
 }
 
 #hero--para {
     width: 320px;
+}
+
+#Photocard-holder {
+    padding-left: 36px;
+    padding-right: 36px;
+}
+
+.photocard--status {
+    position: absolute;
+    z-index: 10;
+    margin: 5px;
+    padding: 2px;
+    background-color: white;
+    border-radius: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+}
+
+.photocard--photo {
+    width: 176px;
+    border-radius: 6px;
+    z-index: 0;
+}
+
+.photocard--caption {
+    width: 176px;
+    font-size: 12px;
+    line-height: 0px;
+}
+
+.photocard--rating-line, .photocard--price-line {
+    display: flex;
+    column-gap: 2px;
+    align-items: center;
+    height: 14px;
+    margin-top: 6px;
+}
+
+.photocard--star {
+    width: 12px;
+    height: 12px;
+}
+
+.photocard--rating-number, .photocard--dot, .photocard--subscribers, .photocard--location {
+    font-size: 12px;
+}
+
+.photocard--dot, .photocard--location, .photocard--subscribers {
+    color: rgb(145, 145, 145);
+}
+
+.photocard--from, .photocard--price, .photocard--person {
+    font-size: 12px;
+}
+
+.photocard--from, .photocard--price {
+    font-weight: 600;
 }
 
