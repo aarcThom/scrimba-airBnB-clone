@@ -10,17 +10,49 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+}
 
-#navbar {
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#nav {
     background-color: rgb(255, 255, 255);
     height: 100px;
-    box-shadow: 0px 3px 3px 1px rgb(179, 179, 179);
+    box-shadow: 0px 3px 3px 1px rgb(235, 235, 235);
 
     display: flex;
     align-items: center;
+    padding: 20px 36px;
 }
 
-#airbnb-logo {
+#nav--logo {
     height: 26px;
-    margin-left: 30px;
 }
+
+#hero {
+    height: fit-content;
+    padding: 36px;
+}
+
+#hero--photo-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero--photogrid {
+    width: 80vw;
+    margin-bottom: 36px;
+}
+
+#hero--para {
+    width: 320px;
+}
+
